@@ -1,4 +1,4 @@
-# Public: Install Couchdb.app (version 1.3.0) into /Applications.
+# Public: Install Couchdb.app (version 1.5.0) into /Applications.
 #
 # Examples
 #
@@ -6,6 +6,6 @@
 class couchdbx {
   package { 'CouchDBX':
     provider => 'compressed_app',
-    source   => 'http://mirror.metrocast.net/apache/couchdb/binary/mac/1.3.0/Apache-CouchDB.zip'
+    source   => 'http://mirror.metrocast.net/apache/couchdb/binary/mac/1.5.0/Apache-CouchDB.zip'
   }
 }
